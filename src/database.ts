@@ -1,4 +1,4 @@
-import databaseConfig from "./config/database.config";
+import databaseConfig from "./configs/database.configs";
 import { Pool } from 'pg'
 
 const db = new Pool({

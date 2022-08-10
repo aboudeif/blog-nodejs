@@ -1,4 +1,5 @@
 import express from 'express'
+import PostHandler from '../handlers/post.handlers'
 
 
 const postRouter = express.Router()

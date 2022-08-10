@@ -1,6 +1,6 @@
 import express from 'express'
 import cors from 'cors'
-import appConfig from './config/app.config'
+import appConfig from './configs/app.configs'
 import routes from './routes'
 
 const app: express.Application = express()
